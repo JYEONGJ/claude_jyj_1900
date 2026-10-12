@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>크레딧노트</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/credit_2.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="util"><a href="#">로그인</a><a href="#">회원가입</a></div>
+  <header class="header">
+    <a href="#" class="logo">
+      <span class="logo-mark">C</span>
+      <span class="logo-text">크레딧노트</span>
+    </a>
+    <div class="header-actions">
+      <div class="menu-wrapper">
+        <a href="#" class="menu">전체메뉴 <span class="burger"><span></span><span></span><span></span></span></a>
+        <div class="menu-popup">
+          <a href="#">신용점수 확인</a>
+          <a href="#">마이페이지</a>
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+        </div>
+      </div>
+      <a id="search" href="#" class="search" aria-label="검색"></a>
+    </div>
+  </header>
+
+  <div id="search-box" class="search-box">
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="검색어를 입력하세요" aria-label="검색어 입력">
+      <button type="button" class="search-btn" aria-label="검색"></button>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div id="promo" class="promo">
+      <div class="swiper promo-swiper">
+        <div class="swiper-wrapper" id="promo-slides"></div>
+      </div>
+      <div class="dots" id="promo-dots"></div>
+    </div>
+
+    <div id="score" class="check score">
+      <div class="check-top">
+        <a href="#">
+          <div class="check-q">내 신용점수는?</div>
+          <div class="check-val"><span id="score-val">?</span> <small>점 ›</small></div>
+        </a>
+        <div class="ph">캐릭터 일러스트</div>
+      </div>
+      <div class="check-tabs">
+        <a href="#" class="tab-link active" data-type="loan">대출</a>
+        <a href="#" class="tab-link" data-type="card">카드</a>
+        <a href="#" class="tab-link" data-type="overdue">연체</a>
+      </div>
+    </div>
+
+    <div class="check income">
+      <div class="check-top">
+        <a href="#">
+          <div class="check-q">내 소득그룹은?</div>
+          <div class="check-val">? <small>›</small></div>
+        </a>
+        <div class="ph">코인 아이콘</div>
+      </div>
+      <div class="check-foot">소득 변동 여부를 확인하세요</div>
+    </div>
+  </section>
+  <div class="dots center"><span class="on"></span><span></span><span></span></div>
+
+  <section class="guards" id="guards">
+    <div class="side">
+      <a href="#" class="banner blue">
+        <div><div class="banner-sub">개인정보 보호 서비스</div><div class="banner-title">이용권 번호 등록하기</div></div>
+        <div class="ph">쿠폰</div>
+      </a>
+      <a href="#" class="banner violet">
+        <div><div class="banner-sub">신용점수 영향 없이</div><div class="banner-title">대출한도 알아보기</div></div>
+        <div class="ph">% 아이콘</div>
+      </a>
+    </div>
+  </section>
+
+  <h2 class="h2">이런 서비스는 어떠세요?</h2>
+  <section class="services" id="services"></section>
+
+  <section class="duo">
+    <div class="loan">
+      <div>
+        <div class="loan-title">제휴 저축은행 개인신용대출</div>
+        <div class="loan-body">내 대출한도가 도착했습니다 (1)<br><a href="#"><b>지금 조회하기 ›</b></a></div>
+      </div>
+      <div class="ph">알림 벨</div>
+    </div>
+    <a href="#" class="banner card">
+      <div><div class="banner-sub">이번 달</div><div class="banner-title">혜택 좋은 카드는?</div></div>
+      <div class="ph">카드 이미지</div>
+    </a>
+  </section>
+
+  <h2 class="h2">모르면 손해, 놓치면 안 되는 <em>혜택 정보</em></h2>
+  <section class="benefits" id="benefits"></section>
+
+  <h2 class="h2">세상에 이런 혜택이</h2>
+  <section class="tiles" id="tiles"></section>
+
+  <section class="notice">
+    <a href="#" class="notice-head">알려드려요 ›</a>
+    <button type="button" class="link notice-text" id="notice-text"></button>
+    <span class="notice-date" id="notice-date"></span>
+  </section>
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-left">
+      <nav>
+        <a href="#">회사소개</a><a href="#">개인정보처리방침</a><a href="#">이용약관</a><a href="#">신용평점체계 공시</a><a href="#">저작권 정책</a><a href="#">사이트맵</a>
+      </nav>
+      <div class="footer-info">(주)크레딧노트 · 서울특별시 중구 세종대로 00 · 대표이사 홍길동<br>사업자등록번호 000-00-00000 · 통신판매업신고 0000-서울중구-0000<br>COPYRIGHT © CREDITNOTE. ALL RIGHTS RESERVED.</div>
+    </div>
+    <div class="footer-right">
+      <div class="cs"><span class="cs-label">고객센터</span><span class="cs-num">1600-0000</span></div>
+      <div class="cs-mail">help@creditnote.kr</div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/credit_2.js"></script>
+</body>
+</html>

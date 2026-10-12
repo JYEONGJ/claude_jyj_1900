@@ -1,0 +1,96 @@
+<!-- 
+1. css 스타일 레이아웃은 flex 스타일로 우선 적용
+
+레이아웃 구조
+- 상단에 굵게 "NEW 새로 나왔어요"
+- 카드 다자인의 레이아웃을 가로로 5개 배치
+
+카드 디자인
+아래 내용을 세로로 배치
+
+아래 내용:
+1. 사진 배치(레이아웃만 구성)
+- 너비 150px, 높이 150px
+
+2. 타이틀 배치
+- 임의로 상품 제목 배치
+
+3. 상품 가격
+- 임의로 상품 가격 배치
+
+4. 배송 혜택
+- 임의로 배송 배치
+
+5. 별점 리뷰
+- 임의로 배치
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakao Layout</title>
+    <link rel="stylesheet" href="style/kakao.css">
+</head>
+<body>
+    <div class="top-flex">
+        <div class="text-box">NEW 새로 나왔어요</div>
+    </div>
+
+    <div class="column-flex-container">
+        <div class="column-flex">
+            <div class="box">
+                <img src="images/skipjack.jpg" alt="skipjack">
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="column-flex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="column-flex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="column-flex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="column-flex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+</html>

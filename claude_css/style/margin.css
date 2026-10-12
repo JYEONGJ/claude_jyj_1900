@@ -1,0 +1,53 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+/* 위 아래 마진이 겹치면 큰 값으로 들어간다. 즉 큰값이 box2의 100px가 반영됨 */
+.box1 {
+    margin-bottom: 50px;
+}
+
+.box2 {
+    margin-top: 100px;
+}
+
+.box3 {
+    margin-left: 300px;
+    margin-right: 300px;
+
+    /* 4방향이 모두 다를 때 */
+    /* margin: 10px 40px 50px 60; */
+
+    /* 2개가 공통 */
+    /* margin: 300px 0; */
+
+    /* 4개가 공통 */
+    /* margin: 300px; */
+}
+
+.box4 {
+    margin: 50px;
+}
+
+.box5 {
+    padding-bottom: 30px;
+}
+
+.box6 {
+    padding: 100px;
+}
+
+/* 3) 표기법
+   - ★카멜 표기법(camelCase) : 낙타의 등을 본따 만든 표기법
+      주로 JAVA, JavaScript, C, ... 언어에서 주로 사용된다.      
+
+   - 파스칼 표기법(PascalCase) : 낙타의 등, 양봉을 본따 만든 표기법
+      주로 JAVA, Python, ... 언어에서 사용된다.
+
+   - ★케밥 표기법(kebab-case): 케밥을 본따 만든 표기법
+      주로 HTML, CSS, ... 언어에서 사용된다.
+      
+   - 스네이크 표기법(snake_case) : 뱀의 모양을 본따 만든 표기법
+      주로 Python, ...언어에서 사용된다. */
